@@ -88,7 +88,7 @@
         \n\nIt\'s also the best way to support the developers of Olauncher. Check it out!</string>
     <string name="wallpaper_message">Olauncher offers beautiful new wallpapers daily. Give your homescreen a fresh new look every day, for free!
         \n\nWant to try it?</string>
-    <string name="accessibility_service_description">The accessibility permission is required to enable double tap to lock. Any data acquired by Olauncher via this service will not leave your device.</string>
+    <string name="accessibility_service_description">Olauncher requires accessibility permission to monitor foreground apps and enforce your restrictions, and to enable double tap to lock. No data is collected or shared.</string>
     <string name="support_olauncher_for_free">Support Olauncher for free by using our Amazon affiliate link.</string>
     <string name="support_olauncher_message">Every time you buy something using our link, we get a small commission. Please save the link and use it whenever you shop online.\nThank you!</string>
     <string name="open">Open link</string>
@@ -155,4 +155,26 @@
     <string name="alignment_changed">Alignment changed ✅</string>
     <string name="home_screen">Home screen</string>
     <string name="hey">Hey</string>
+
+    <!-- App Restriction Feature Strings -->
+    <string name="app_restrictions">App Restrictions</string>
+    <string name="enable_restriction_service">Enable Restriction Service</string>
+    <string name="grant_permissions">Grant Permissions</string>
+    <string name="restriction_config_title">App Restriction Configuration</string>
+    <string name="search_apps">Search apps…</string>
+    <string name="continuous_usage_limit">Continuous usage limit</string>
+    <string name="cooldown_period">Cooldown period</string>
+    <string name="active_days">Active on</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="restriction_warning">Once saved, restrictions require emergency override to change.</string>
+    <string name="block_reason_not_available_today">Not available today</string>
+    <string name="block_reason_daily_limit_reached">Usage limit reached</string>
+    <string name="time_used_today">Time used today: %s</string>
+    <string name="emergency_override">Emergency Override</string>
+    <string name="emergency_override_challenge_title">Emergency Override Challenge</string>
+    <string name="emergency_override_instructions">Type \'i\'m a loser\' 100 times to continue.</string>
+    <string name="shame_counter">Shame Counter: %d</string>
+    <string name="restriction_service_notification_title">App restrictions active</string>
+    <string name="restriction_service_notification_text">Monitoring your app usage as per your rules.</string>
 </resources>
